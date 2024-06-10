@@ -53,7 +53,11 @@ export default function Country({ country }) {
         </div>
 
         <div className={style.flag_img}>
-          <Image src={country.flagImg} fill />
+          <Image
+            src={country.flagImg}
+            alt={`${country.commonName}의 국기 이미지입니다.`}
+            fill
+          />
         </div>
 
         <div className={style.body}>
