@@ -8,7 +8,7 @@ export default function Home({ countries }) {
     <>
       <Head>
         <title>NARAS</title>
-        <meta property="og:image" content="/thumbnail.ong" />
+        <meta property="og:image" content="/thumbnail.png" />
         <meta property="og:title" content="NARAS" />
         <meta
           property="og:description"
